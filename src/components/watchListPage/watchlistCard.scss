@@ -1,0 +1,82 @@
+@import "./../../styles/utilities.scss";
+@import "./../../styles/colors.scss";
+
+.watch-carousel-card-container-horizontal {
+  margin: 3% !important;
+  height: 10rem;
+  width: 15rem;
+  border-radius: 0.5rem;
+
+  img {
+    height: 100%;
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+}
+
+.watch-carousel-card-container-horizontal:hover {
+  height: 15rem;
+  width: 22rem;
+  margin-bottom: 5%;
+}
+
+.watch-card-btns-container {
+  width: 100%;
+
+  button {
+    margin: 2%;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    font-size: xx-large;
+    color: $primary-white;
+    background: #222326;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+.divider {
+  color: #bcbcbc;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+video {
+  height: 100%;
+  width: 100%;
+}
+
+.banner-wrapper {
+  box-sizing: border-box;
+  padding: 2%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.75);
+  height: 15rem;
+  width: 22rem;
+  z-index: 1;
+}
+
+.movie-title {
+  font-size: large;
+  margin-bottom: 1%;
+}
+
+.tags {
+  min-width: 3rem;
+  background: #6d6b6b;
+  backdrop-filter: blur(1rem);
+  margin-right: 3%;
+  color: #ffffff;
+  padding: 1%;
+  border-radius: 0.5rem;
+  border: none;
+}
+
+.watch-card-details {
+  width: 100%;
+}
+
+.sub-labels {
+  width: 100%;
+}

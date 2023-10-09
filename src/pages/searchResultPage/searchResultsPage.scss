@@ -1,0 +1,26 @@
+@import "../../styles/colors";
+@import "../../styles/utilities.scss";
+
+.search-content {
+    box-sizing: border-box;
+  padding-left: 7%;
+  height: 80rem;
+  width: 100%;
+
+  .search-cards{
+    width: 100%;
+  }
+
+  .search-card{
+    width: 20%;
+    height: 10rem;
+    border-radius: 0.5rem;
+    margin: 2%;
+
+    img{
+        width: 100%;
+        height: 100%;
+        border-radius: 0.5rem;
+    }
+  }
+}

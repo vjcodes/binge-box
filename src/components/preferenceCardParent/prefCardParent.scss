@@ -1,0 +1,59 @@
+@import "./../../styles/colors";
+@import "./../../styles/utilities.scss";
+
+.pref-card-parent-container {
+  box-sizing: border-box;
+  background-color: #000000;
+  width: 60%;
+  min-height: 10rem;
+  padding: 2%;
+
+  .pref-card-parent-header {
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 3%;
+  }
+
+  .pref-card {
+    width: 30%;
+    height: 6rem;
+    margin: 1%;
+    cursor: pointer;
+    position: relative;
+
+    img {
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .pref-card-wrapper {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 1;
+    }
+  }
+
+  .pref-selected {
+    width: 31%;
+    height: 7rem;
+  }
+
+  .next-container {
+    width: 100%;
+    margin-top: 2%;
+
+    button {
+      background: none;
+      border: none;
+      color: $primary-red;
+      cursor: pointer;
+      font-size: medium;
+    }
+  }
+}

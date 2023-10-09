@@ -1,0 +1,116 @@
+@import "./../../styles/utilities.scss";
+@import "./../../styles/colors";
+
+.header-parent {
+  overflow: hidden;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 1%;
+  display: flex;
+  justify-content: space-between;
+
+  img {
+    cursor: pointer;
+    width: 15%;
+  }
+
+  .header-btns-container {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .search-container {
+    width: 30%;
+
+    input {
+      height: 2rem;
+    }
+  }
+
+  .profile-section {
+    display: flex;
+    align-items: center;
+    width: 10%;
+    justify-content: center;
+
+    img {
+      height: 2rem;
+      width: 2rem;
+      margin-left: 4%;
+      cursor: pointer;
+    }
+  }
+}
+
+/* The dropdown container */
+.dropdown {
+  margin-left: 4%;
+  box-sizing: border-box;
+  float: left;
+  overflow: hidden;
+}
+
+.search-dropdown {
+  box-sizing: border-box;
+  position: absolute;
+  top: 9.8%;
+  right: 12%;
+  cursor: pointer;
+  background: rgba(151, 138, 138, 0.5);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  min-width: 29%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-row {
+  margin-left: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: rgba(151, 138, 138, 0.5);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  right: -2%;
+  min-width: 15rem;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-right: 10%;
+  top: 13%;
+  padding: 1%;
+  border-radius: 0.5rem;
+
+  button {
+    width: 100%;
+    height: 2rem;
+    color: $primary-white;
+    background-color: $primary-red;
+    font-weight: 500;
+    font-size: medium;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+
+  h4 {
+    font-weight: 500;
+    cursor: pointer;
+  }
+}
+
+/* Show the dropdown menu on hover */
+.dropdown-content-active {
+  display: block;
+}
+
+.red-bottom {
+  border-bottom: 3px solid red;
+}

@@ -1,0 +1,108 @@
+.signup-page-parent-container {
+  height: 100vh;
+  background: url("./../../assets/signin/bg2.png");
+
+  .sign-up-page-form {
+    padding: 4%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+
+    .sign-up-form-container {
+      min-height: 50vh;
+      width: 45%;
+      padding: 1%;
+
+      h2 {
+        font-weight: 600;
+      }
+
+      button {
+        margin: 2% 0%;
+        height: 3rem;
+        width: 90%;
+        border: none;
+        background-color: #f03a47;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: larger;
+        border-radius: 0.7rem;
+        cursor: pointer;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      button:disabled,
+      button[disabled] {
+        background-color: #9f9f9f;
+        color: #ffffff;
+        cursor: default;
+      }
+    }
+
+    .sign-up-side-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 50vh;
+      width: 45%;
+      padding: 1%;
+
+      img {
+        height: 20rem;
+      }
+    }
+  }
+
+  .sign-up-plans-page {
+    background-color: rgba(0, 0, 0, 0.75);
+    height: 100%;
+    display: flex;
+    .sign-up-plans-side-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      min-height: 50vh;
+      width: 30%;
+      padding: 4%;
+
+      img {
+        height: 3rem;
+        margin-bottom: 10%;
+      }
+
+      #plan-side-img {
+        height: 7rem;
+        margin-bottom: 4%;
+      }
+
+      h2 {
+        font-weight: 300;
+        line-height: 43px;
+      }
+    }
+
+    .sign-up-plans-card-container {
+      box-sizing: border-box;
+      flex-wrap: wrap;
+      display: flex;
+      justify-content: space-between;
+      min-height: 50vh;
+      width: 65%;
+      padding: 2%;
+    }
+  }
+
+  .plan-description {
+    padding: 4%;
+    background-color: rgba(0, 0, 0, 0.75);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+      height: 3rem;
+      margin-bottom: 4rem;
+    }
+  }
+}

@@ -1,0 +1,95 @@
+@import "./../../../styles/colors";
+
+.banner {
+  z-index: 1;
+  border-radius: -10px;
+  height: 30rem;
+  width: 100%;
+
+  img {
+    height: 100%;
+    width: 100%;
+  }
+
+  video {
+    z-index: 1;
+    height: 100%;
+    width: 100% !important;
+    width: fit-content;
+  }
+}
+.banner-wrapper-main {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 1;
+
+  .about-banner-main {
+    padding: 2%;
+    width: 30%;
+    height: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .banner-title {
+      width: 100%;
+      text-align: left;
+      margin-bottom: 10%;
+      font-size: x-large;
+      font-weight: 500;
+    }
+
+    .banner-tags {
+      width: 100%;
+      margin-bottom: 10%;
+      margin-top: 10%;
+      display: flex;
+
+      .tags {
+        background: #6D6B6B;
+        backdrop-filter: blur(1rem);
+        margin-right: 3%;
+        color: #ffffff;
+        padding: 2%;
+        border-radius: 0.5rem;
+        border: none;
+      }
+    }
+    .banner-btns {
+      width: 100%;
+      margin-bottom: 10%;
+      display: flex;
+      align-items: center;
+
+      .play-btn{
+        background-color: $primary-red;
+        color: $primary-white;
+        padding: 2%;
+        width: 5rem;
+        height: 3rem;
+        border-radius: 0.5rem;
+        border: none;
+        font-size: large;
+        margin-right: 10%;
+        cursor: pointer !important;
+      }
+
+      .add-btn{
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        font-size: xx-large;
+        color: $primary-white;
+        background: #222326;
+        border: none;
+        cursor: pointer;
+      }
+    }
+  }
+}

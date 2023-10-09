@@ -1,0 +1,63 @@
+.plan-card-container {
+  cursor: pointer;
+  text-align: center;
+  background: rgba(151, 138, 138, 0.2);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  min-height: 60%;
+  width: 30%;
+  border: none;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    color: #f03a47;
+  }
+
+  #price {
+    display: inline;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: x-large;
+  }
+
+  .divider {
+    margin-top: 8%;
+    margin-bottom: 8%;
+    background-color: #3f3e3e;
+    width: 90%;
+    height: 1px;
+  }
+
+  .value-container {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .value-headers {
+    font-size: 0.7rem;
+  }
+
+  button {
+    padding: 4%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border: none;
+    bottom: 0;
+    width: 60%;
+    height: 10%;
+    border-radius: 1rem;
+    background-color: #f03a47;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: medium;
+    cursor: pointer;
+  }
+}
+
+.plan-card-container:hover {
+  background: rgba(151, 138, 138, 0.6);
+}

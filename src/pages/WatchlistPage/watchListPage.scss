@@ -1,0 +1,32 @@
+.watch-cards-container {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.watchlist-heading{
+    margin-left: 10%;
+    font-weight: 500;
+}
+
+.watch-list-card {
+  cursor: pointer;
+  height: 12rem;
+  width: 17rem;
+  margin: 3%;
+  border-radius: 1rem !important;
+  box-sizing: border-box;
+
+  img {
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem !important;
+  }
+}
+
+.watchlist-card-wrapper {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 100;
+  height: 100%;
+  z-index: 1;
+}

@@ -1,0 +1,70 @@
+.plan-desc-card-container {
+  width: 80%;
+  min-height: 60%;
+  background: rgba(151, 138, 138, 0.6);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  padding: 3% 5%;
+
+  h1 {
+    color: #f03a47;
+    font-weight: 700;
+  }
+
+  .plan-desc-container {
+    margin-top: 5%;
+    height: 10rem;
+
+    .header-containers {
+      height: 45%;
+      display: flex;
+      justify-content: space-between;
+
+      .header {
+        width: 25%;
+        padding: 2% 0% 2% 2%;
+      }
+    }
+
+    .desc-values {
+      height: 55%;
+      background: linear-gradient(to bottom, #000000b0, #1e151514);
+      border-radius: 1rem;
+      display: flex;
+      justify-content: space-between;
+
+      .value {
+        width: 25%;
+        padding: 3% 0% 2% 2%;
+      }
+    }
+  }
+
+  .btn-containers {
+    margin-top: 3%;
+    display: flex;
+    justify-content: end;
+
+    .btn {
+      border: none;
+      width: 20%;
+      margin: 1%;
+      height: 2rem;
+      border-radius: 0.5rem;
+      font-weight: 700;
+      font-size: medium;
+      cursor: pointer;
+    }
+
+    .back {
+      background-color: #f4f4f4;
+      color: #f03a47;
+    }
+
+    .pay {
+      background-color: #f03a47;
+      color: #ffffff;
+    }
+  }
+}

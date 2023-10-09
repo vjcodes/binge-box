@@ -1,0 +1,81 @@
+@import "./../../styles/colors";
+@import "./../../styles/utilities.scss";
+
+.movie-details-container {
+  width: 70%;
+  min-height: 50%;
+  box-sizing: border-box;
+
+  background: linear-gradient(to right, #ffffff30, #eaeaea15, #dfd6d600);
+  border-radius: 0.5rem;
+  padding: 5%;
+
+  .title-container {
+    width: 100%;
+
+    .title-labels {
+      width: 50%;
+    }
+
+    .divider {
+      color: #bcbcbc;
+      margin-left: 3%;
+      margin-right: 3%;
+    }
+
+    .sub-labels {
+      color: $primary-white;
+      width: 100%;
+    }
+
+    .banner-btns {
+      display: flex;
+
+      .play-btn {
+        background-color: $primary-red;
+        color: $primary-white;
+        padding: 2%;
+        width: 5rem;
+        height: 3rem;
+        border-radius: 0.5rem;
+        border: none;
+        font-size: large;
+        margin-right: 10%;
+        cursor: pointer;
+      }
+
+      .add-btn {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        font-size: xx-large;
+        color: $primary-white;
+        background: #222326;
+        border: none;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .banner-tags {
+    width: 100%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    display: flex;
+
+    .tags {
+      background: #6d6b6b;
+      backdrop-filter: blur(1rem);
+      margin-right: 3%;
+      color: #ffffff;
+      padding: 1%;
+      border-radius: 0.5rem;
+      border: none;
+    }
+  }
+
+  .description{
+    font-weight: 400;
+    font-size: medium;
+  }
+}

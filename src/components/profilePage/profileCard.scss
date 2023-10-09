@@ -1,0 +1,46 @@
+@import "./../../styles/colors";
+@import "./../../styles/utilities.scss";
+
+.profile-card-parent-container {
+  .profile-card {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 0.5rem;
+    padding: 2%;
+    min-width: 80%;
+    background: linear-gradient(to right, #ffffff30, #eaeaea15, #dfd6d600);
+
+    .profile-section-headers{
+      width: 100%;
+    }
+
+    .divider {
+      height: 0rem;
+      width: 100%;
+      border: 1px solid #ffffff4d;
+      margin-top: 2%;
+      margin-bottom: 2%;
+    }
+
+    .banner-tags {
+      width: 100%;
+
+      .tags {
+        background: #6d6b6b;
+        backdrop-filter: blur(1rem);
+        margin-right: 3%;
+        color: #ffffff;
+        padding: 1%;
+        border-radius: 0.5rem;
+        border: none;
+      }
+    }
+
+    .logout-btn {
+      background: transparent;
+      border: none;
+      color: $primary-red;
+      cursor: pointer;
+    }
+  }
+}

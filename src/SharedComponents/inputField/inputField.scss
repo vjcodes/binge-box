@@ -1,0 +1,50 @@
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+input {
+  background: linear-gradient(to right, #ffffff30, #eaeaea15, #dfd6d600);
+  backdrop-filter: blur(1rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.7rem;
+  margin: 2% 0%;
+  height: 3rem;
+  width: 90%;
+  color: white;
+}
+
+::placeholder {
+  padding: 1%;
+  color: #ffffff;
+  opacity: 1;
+}
+
+input[type="checkbox"] {
+  height: 1rem;
+  width: 5%;
+}
+input[type="checkbox"]:checked {
+  accent-color: #f03a47;
+}
+
+span {
+  font-size: 12px;
+  padding: 13px;
+  color: red;
+  display: none;
+}
+
+input:invalid[focused="true"] {
+  border: 1px solid red;
+}
+
+input:invalid[focused="true"] ~ span {
+  display: block;
+}
+
+label {
+  display: inline-block;
+}
